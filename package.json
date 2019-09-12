@@ -1,0 +1,19 @@
+{
+  "name": "es6-lyne",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel /home/lyne/VScodes/JS/nodeAssign/es6-nodejs/public/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "parcel-bundler": "^1.12.3"
+  }
+}
