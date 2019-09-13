@@ -1,8 +1,8 @@
-var Person = {
+const Person = {
     Name: 'Julies',
-    Year: '1990',
+    Year: 1990,
     Age: function (dob) {
-        var diff_ms = Date.now().getTime()-Year;
+        var diff_ms = new Date().getUTCFullYear()-this.Year;
         var age_dt = new Date(diff_ms);
 
         return Math.abs(age_dt.getUTCFullYear() - 1990);

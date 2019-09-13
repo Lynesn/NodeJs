@@ -6,7 +6,7 @@
   "scripts": {
     "build": "babel src -d lib",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel /home/lyne/VScodes/JS/nodeAssign/es6-nodejs/public/index.html"
+    "start": "parcel /home/lyne/VScodes/JS/nodeAssign/es6-nodejs/public/index.html --port 8000"
   },
   "author": "",
   "license": "ISC",
