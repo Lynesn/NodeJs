@@ -1,0 +1,1 @@
+{"version":3,"sources":["../assets/style.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"style.6ca9789c.css","sourceRoot":"../public","sourcesContent":["body{\n    background-color: rgb(209, 169, 209);\n    font-size: 70px;\n    font-family: 'Courier New', Courier, monospace;\n    text-align: center;\n\n}\n"]}
